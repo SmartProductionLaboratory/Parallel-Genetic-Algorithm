@@ -85,6 +85,9 @@ struct job_base_t {
     unsigned int job_no;
     unsigned int qty;
     unsigned int machine_no;
+    double ptime;
+    double _ms_gene;
+    double _os_gene;
     double arriv_t;
     double start_time;
     double end_time;
